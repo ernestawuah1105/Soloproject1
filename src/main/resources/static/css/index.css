@@ -1,0 +1,71 @@
+#register{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 50%
+	
+	
+}
+
+#login{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	justify-content: space-between;
+	height: 50%
+	
+	
+	
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+	background-color: green;
+	
+	
+	}
+h2{ align-self: flex-start;
+flex-basis: 10%;
+
+
+
+	
+}	
+.forms{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-basis: 80%;
+	width: 100vw;
+	background-color: gray;
+	
+}
+.paragraph{
+	height: 20%;
+	width:  30%;
+	align-self: flex-start;
+	margin-left: 5%;
+	background-color: blue;
+	
+}
+.login{
+	color: green;
+}
+.register{
+	color: green;
+}
+#games {
+	height: 300px;
+	width:  300px;
+	border: 2px solid black;
+	
+}
+   
+
+	
+	
+	

@@ -1,0 +1,21 @@
+head>
+<title>Great Ideas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    
+<script type="text/javascript" src="../js/request.js"></script>
+    
+
+</head>
+
+<body>
+ <h3>Create a new Idea</h3>
+ <form id="idea" onSubmit="submitPost('idea', '/idea')"
+ >
+ <label for="content">Content</label>
+ <input type="text" id="content" name="content"><br>
+ <input type="hidden" th:value="${name}" name="createdby"> 
+ <input type="submit" value="create">
+ </form>
+</body>
+</html>
